@@ -1,0 +1,46 @@
+/* I set the whole page to Helvetica, I dislike from a design standpoint more than one font*/
+* {
+  font-family: Helvetica;
+}
+h1 {
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg);
+}
+
+  /* can use below to control background image
+  background-repeat: repeat;
+  background-size: 10%;
+  */
+
+h2 {
+  font-weight: bold;
+}
+
+.titlegreen {
+  background-color: mediumspringgreen;
+}
+.titlered {
+  background-color: lightcoral;
+}
+.titleblue {
+  background-color: skyblue;
+}
+
+/* I also added some padding here and an indent, so it displays a bit nicer, and spaced better */
+.titleblue, .titlered, .titlegreen {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-indent: 25px;
+}
+
+/* here i used this to turn text to blue and bold */
+.bluebold {
+  font-weight: bold;
+  color: blue;
+}
